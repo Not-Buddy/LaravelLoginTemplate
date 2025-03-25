@@ -1,16 +1,16 @@
 
 
-to intialize laravel properly use 
+##**To intialize laravel properly use** 
 composer install
 
-To start the project first ensure the .env is properly connected to database
-run 
+##To start the project first ensure the .env is properly connected to database
+##**run**
 php artisan migrate
 
-generate a key to keep things encrypted
+##**generate a key to keep things encrypted**
 php artisan key:generate
 
-then run to start the website
+##**Then run to start the website**
 php artisan serve
 
 
