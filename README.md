@@ -1,3 +1,20 @@
+
+
+to intialize laravel properly use 
+composer install
+
+To start the project first ensure the .env is properly connected to database
+run 
+php artisan migrate
+
+generate a key to keep things encrypted
+php artisan key:generate
+
+then run to start the website
+php artisan serve
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
